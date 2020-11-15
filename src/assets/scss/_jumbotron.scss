@@ -1,0 +1,36 @@
+.jumbotron{
+    width: 100vw;
+    &__row{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        &__column{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            height: calc(100vh - 90px);
+            &__text{
+                margin: 0px auto;
+            }
+            h1{
+                font-weight: 600;
+                font-size: 56px;
+                margin: 15px 0px;
+                span{
+                    display: block;
+                    font-weight: 300;
+                }
+            }
+            p{
+                font-weight: 300;
+            }
+            &.bg_image{
+                background-image: url('../images/home.jpg');
+                background-size: cover;
+                background-position: center center;
+            }
+        }
+
+    }
+}

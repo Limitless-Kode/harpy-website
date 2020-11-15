@@ -1,0 +1,25 @@
+.navigation{
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__group{
+        display: flex;
+        align-items: center;
+        grid-gap: 45px;
+        margin: 15px 30px;
+        #brand{
+            img{
+                height: 45px;
+            }
+        }
+        .links{
+            display: flex;
+            grid-gap: 30px;
+        }
+    }
+    &__feedback{
+        margin: 15px 30px;
+    }
+}

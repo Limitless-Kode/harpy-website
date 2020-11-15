@@ -1,0 +1,54 @@
+.footer{
+    background-color: $primary-color;
+    min-height: 30vh;
+    h3, a{
+        color: $secondary-color;
+        display: block;
+        margin: 20px 0px;
+        font-size: 14px;
+    }
+    h3{
+        margin: 30px 0px;
+        font-weight: 600;
+        font-size: 22px;
+    }
+    .row{
+        margin: 0 auto;
+        width: 60vw;
+        align-items: flex-start;
+        justify-content: space-between;
+        .column{
+            margin: 60px 0px 30px 0px;
+            .store_logo{
+                margin: 0;
+            }
+        }
+    }
+    .social{
+        margin: 0 auto;
+        margin-top: 90px;
+        width: 60vw;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .brand{
+            display: flex;
+            align-items: center;
+            color: $secondary-color;
+            img{
+                margin-right: 15px;
+                height: 45px;
+            }
+        }
+        .links{
+            display: flex;
+            a{
+                margin: 0px 20px;
+                img{
+                    height: 30px;
+                }
+            }
+        }
+    }
+}

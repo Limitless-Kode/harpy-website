@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'roboto-slab';
+    src:  url('../fonts/Roboto_Slab/RobotoSlab.ttf'),
+  }
+  
+  
+  
+  /*font Variables*/
+  
+  $primary-font: "roboto-slab", sans-serif;
+  
+  
+  
+  // color variables
+  
+    $primary-color: #000000;
+    $secondary-color: #ffffff;
+  
+    //general styles
+    h1, h2, h3, h4, h5, h6{
+      font-family: $primary-font;
+      font-weight: 900;
+    }
+  
+    a{
+      font-family: $primary-font;
+      font-weight: 400;
+      text-decoration: none;
+      color: $primary-color;
+      display: inline-block;
+    }
